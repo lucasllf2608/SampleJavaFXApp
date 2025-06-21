@@ -35,14 +35,14 @@ public class MainViewController implements Initializable{
 	
 	@FXML
 	public void menuItemDepartmentAction() {
-		System.out.println("aoba");
+		loadView("/gui/DepartmentList.fxml");
 	}
 	
 	@FXML
 	public void menuItemAboutAction() {
 		loadView("/gui/About.fxml");
 	}
-
+	
 	
 	@Override
 	public void initialize(URL uri, ResourceBundle rb) {
